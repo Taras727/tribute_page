@@ -1,0 +1,15 @@
+main {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  align-items: center;
+}
+
+main:only-child {
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
