@@ -1,3 +1,20 @@
+#container {
+  margin: 30px 5px;
+  padding: 15px;
+  border-radius: .5%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, .75);
+  background-color: #eee;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -5,11 +22,43 @@ main {
   align-items: center;
 }
 
-main:only-child {
+#img-div {
+  border-radius: .5%;
+  padding: 15px;
+  background-color: white;
+  text-align: center;
 }
 
 #image {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+#img-caption {
+  margin-top: 20px;
+}
+
+#tribute-info {
+  width: 40%;
+}
+
+#tribute-info h3 {
+  text-align: center;
+  margin: 40px 0;
+}
+
+#tribute-info li {
+  margin: 20px 0;
+}
+
+blockquote {
+  padding: 15px 0;
+  font-style: italic;
+}
+
+footer p {
+  font-size: 1.15rem;
+  text-align: center;
+  font-weight: bold;
 }
