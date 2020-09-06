@@ -1,6 +1,6 @@
 #container {
-  margin: 30px 5px;
-  padding: 15px;
+  margin: 4vh .05vw;
+  padding: 2vh 0;
   border-radius: .5%;
   font-family: Arial, Helvetica, sans-serif;
   color: rgba(0, 0, 0, .75);
@@ -18,13 +18,14 @@ h1 {
 main {
   display: flex;
   flex-direction: column;
-  flex-basis: 50%;
+  flex-basis: 50vw;
   align-items: center;
 }
 
 #img-div {
+  margin: 0;
   border-radius: .5%;
-  padding: 15px;
+  padding: 2.5vmin;
   background-color: white;
   text-align: center;
 }
@@ -36,24 +37,26 @@ main {
 }
 
 #img-caption {
-  margin-top: 20px;
+  margin-top: 2%;
 }
 
 #tribute-info {
-  width: 40%;
+  width: 600px;
+  max-width: 90%;
 }
 
 #tribute-info h3 {
   text-align: center;
-  margin: 40px 0;
+  margin: 6vh 0;
 }
 
 #tribute-info li {
-  margin: 20px 0;
+  margin: 3vh 0;
 }
 
 blockquote {
-  padding: 15px 0;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
   font-style: italic;
 }
 
